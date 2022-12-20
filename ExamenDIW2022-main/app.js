@@ -17,10 +17,24 @@ closeModal.addEventListener('click', (e) => {
 
 const formulario = document.querySelector('.añadirbtn');
 
-formulario.addEventListener('click', () => {
-    modal.classList.remove('contact_form--show');
-    alert('Se ha rellenado su formulario');
+
+formulario.addEventListener('click', function() {
+    var campos = modal.getElementsByTagName('input');
+
+        for (var i = 0; i< campos.length; i++){
+            var valor = campos[i].value;
+
+            if( valor ===""){  
+                return;
+            }
+
+        }
+
+        alert('Se ha rellenado su formulario');
+        form.submit();
+
 });
+
 
 
 
