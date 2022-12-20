@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@300&display=swap");
+
+
+body{
+    background: rgb(26,34,68);
+background: linear-gradient(90deg, rgba(26,34,68,1) 0%, rgba(121,50,9,0.988399071925754) 43%, rgba(0,212,255,1) 100%);
+background-size: 100% 100%;
+}
+
+.contact_form{  
+    border-color: #000000;
+    margin:500px auto;
+    width: 400px; 
+    height: 387px;
+    border-radius: 10px;  
+    border: 1px solid;
+    background-color: white;
+    opacity:0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact_form--show{
+    opacity: 1;
+    pointer-events: unset;
+}
+
+
+
+.header{
+    border: 1px solid;
+    border-color: #000000;
+    align-content: center;
+    background-color:darkgray;
+    font-size: 16px;  
+    text-align: center;  
+    color: #000000;
+    border-radius: 10px 10px 0px 0px; 
+    font-family: 'Fredoka One', sans-serif;
+
+}
+
+
+.footer{
+    border-color: #000000;
+    border: 1px solid;
+    font-size: 39px;   
+    background-color: darkgray;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+
+
+
+.formulario{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 70px;
+    background-color:white(158, 158, 158);
+}
+
+
+input{
+    background-color: #fbfbfb; 
+    width: 100px; 
+    height: 15px; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #000000;
+    outline: none;
+    
+}
+
+
+.check{ 
+    width: 15px; 
+    height: 15px;
+    
+}
+
+
+.añadirbtn{
+    height: 40px; 
+    background-color: green; 
+    border-color: #000000; 
+    border-style: solid; 
+    border-radius: 10px;    
+    width: 150px;   
+    cursor: pointer;
+    color: white;
+}
+
+.volverbtn{
+    height: 40px;  
+    background-color: lightgrey;  
+    border-style: none; 
+    border-radius: 10px;    
+    width: 150px;   
+    cursor: pointer;
+    color: white;
+}
+
+.clientebtn{
+    height: 45px;
+    margin-bottom: 20px; 
+    margin-top: 20px;   
+    background-color: green; 
+    border-color: #000000; 
+    border-style: none; 
+    border-radius: 10px;    
+    width: 200px;   
+    cursor: pointer;
+    align-items: center;
+    color: white;
+}
+
+
+
+.contact_form1{  
+    border-color: #000000;
+    margin:80px auto;
+    width: 650px; 
+    height: auto;
+    border-radius: 10px;  
+    border: 1px solid;
+    background-color: white;
+ 
+  
+}
+
+.formulario1{
+    text-align: center;
+
+    
+}
+
+.header1{
+    border: 1px solid;
+    border-color: #000000;
+    background-color:darkgray;
+    font-size: 16px;  
+    text-align: center;  
+    color: #000000;
+    border-radius: 10px 10px 0px 0px; 
+    font-family: 'Fredoka One', sans-serif;
+
+}
+
+
+.footer1{
+    text-align: center;
+    border-color: #000000;
+    border: 1px solid;     
+    font-size: 11px;
+    background-color: darkgray;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Fredoka One', sans-serif;
+
+}
+
+table tr:hover{
+    background-color: orange;
+}
+
+table, th, td{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid orange;
+}
+
+table{
+    width: 620px;
+    height: 150px;
+
+}
+
+
+.cero{
+    background-color: orange;
+    font-family: 'Fredoka One', sans-serif;
+
+}
+
+.gris{
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 3px;
+}
+
+.azul{
+    color: white;
+    background-color:blue;
+    border: none;
+    border-radius: 3px;
+}
+
+.rosa{
+    color: white;
+    background-color: pink;
+    border: none;
+    border-radius: 3px;
+}

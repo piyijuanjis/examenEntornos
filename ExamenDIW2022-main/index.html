@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@300&display=swap" );>
+  <!-- Completa tu nombre -->
+  <title>Juan José Montijano Cantero</title>
+
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <!-- Completar html aqui -->
+
+
+  <div class="contact_form1">
+    <div class="header1">
+      <h1>Aplicación de dietas</h1>
+    </div>
+    <div class="formulario1">
+      <table>
+        <thead>
+          <tr class="cero">
+            <th scope="col">Nombre</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Altura </th>
+            <th scope="col">Peso</th>
+            <th scope="col">Actividad</th>
+            <th scope="col">IM Basal</th>
+            <th scope="col">Calorias necesarias</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="primera">
+            <td>Francisco Romero</td>
+            <td><button class="azul"> hombre</button></td>
+            <td>31</td>
+            <td>180</td>
+            <td>89</td>
+            <td><button class="gris"> Moderada</button></td>
+            <td>1427kCal</td>
+            <td>1712kCal</td>
+          </tr>
+          <tr class="segunda">
+            <td>Ana Gil</td>
+            <td><button class="azul"> mujer</button></td>
+            <td>22</td>
+            <td>160</td>
+            <td>45</td>
+            <td><button class="gris"> Moderada</button></td>
+            <td>1327kCal</td>
+            <td>1812kCal</td>
+          </tr>
+          <tr class="tercera">
+            <td>José Gómez</td>
+            <td><button class="rosa"> hombre</button></td>
+            <td>25</td>
+            <td>160</td>
+            <td>89</td>
+            <td><button class="gris"> alta</button></td>
+            <td>1900kCal</td>
+            <td>1412kCal</td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="submit" class="clientebtn" value="Añadir cliente"/> 
+    </div>
+    <div class="footer1">
+      <p>
+      <h2>Juan José Montijano 2022</h2>
+      </p>
+
+    </div>
+  </div>
+
+
+  <form  class="contact_form" method="get">
+    <div class="header">
+      <h1>Nuevo Cliente</h1>
+    </div>
+    <div class="formulario">
+      <p> <label class="texto" for="name">Nombre</label>
+        <input type="text" id="nombre" name="Nombre" required>
+      </p>
+
+      <p id="sexo">Sexo
+        <input class="check" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+        <label class="check" for="optionsRadios1">Mujer</label>
+
+
+        <input class="check" type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><label class="check"
+          for="optionsRadios2">Hombre</label>
+      </p>
+
+      <p><label class="texto" for="edad">Edad</label>
+        <input type="number" id="edad" min="18" max="99" name="edad" required>
+      </p>
+
+      <p><label class="texto" for="altura">Altura</label>
+        <input type="number" id="altura" min="150" max="250" name="altura" required>
+      </p>
+
+      <p><label class="texto" for="peso">Peso</label>
+        <input type="number" id="peso" min="20" max="500" name="peso" required>
+      </p>
+      <p id="actividad"> <label for="Actividad Física">Actividad Física:
+
+          <select>name="Fisica">
+            <option value="suave">Suave</option>
+            <option value="sedentaria">Sedentaria</option>
+          </select>
+        </label>
+      </p>
+    </div>
+
+    <div class="footer">
+      <input type="submit" class="añadirbtn" value="Añadir nuevo"/>
+      <input type="submit" class="volverbtn" value="Volver"/>
+    </div>
+  </div>
+  </form>
+
+
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
